@@ -17,7 +17,7 @@ function App() {
     },[query])
 
     const getData = async () => { 
-      const URL =  "https://api.edamam.com/search?q="+query+"&app_id=dd47c336&app_key=${process.env.REACT_APP_API_KEY}"
+      const URL =  "https://api.edamam.com/search?q="+query+"&app_id=dd47c336&app_key="+API_KEY
       const response = await fetch(URL)
       const data = await response.json()
       setHits(data.hits)
