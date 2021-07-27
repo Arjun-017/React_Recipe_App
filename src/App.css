@@ -52,8 +52,8 @@ header::after{
 	top: 0;
 	left: 0;
 	z-index: -1;
-	transform: scale(1.2);
-	animation: background-anim 2s ease forwards;
+	transform: scale(1.6);
+	animation: background-anim 5s ease forwards;
 }
 header ul{
 	position: relative;
